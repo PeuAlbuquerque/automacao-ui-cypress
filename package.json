@@ -19,5 +19,9 @@
   "homepage": "https://github.com/PeuAlbuquerque/automacao-ui-cypress#readme",
   "devDependencies": {
     "cypress": "^10.10.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "faker-br": "^0.4.1"
   }
 }
