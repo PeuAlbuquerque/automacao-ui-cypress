@@ -34,7 +34,7 @@ context('Funcionalidade Login', () => {
         cy.get('#password').type('seste.com')
         cy.get('.woocommerce-form > .button').click()
 
-        cy.get('.woocommerce-error > li').should('contain', 'Erro: A senha fornecida para o e-mail aluno_ebac@teste.com está incorreta. Perdeu a senha?')
+        cy.get('.woocommerce-error > li').should('contain', 'Erro: a senha fornecida para o e-mail')
 
     });
 })
